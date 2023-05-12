@@ -1,5 +1,5 @@
 import { defineStore, Store } from "pinia";
-import { UnwrapRef } from "vue";
+import { UnwrapRef } from "@vue/composition-api";
 
 type S = new () => any;
 interface WithDecorators {
